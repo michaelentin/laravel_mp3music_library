@@ -7,15 +7,13 @@
 
         <title>Laravel</title>
 
-        <link rel="stylesheet" type="text/css" href=" {{ elixir('css/app.css') }}">
+        <!--<link rel="stylesheet" type="text/css" href=" {{ elixir('css/app.css') }}"> -->
 
-        <!-- Fonts -->
+        <button id="logout" name="logout" style="float: right;">Logout</button>
         @yield('header')
     </head>
     <body>
         @yield('content')
-
-        <form><legend><fieldset><input type="submit" name="button" value="buttontastic"></fieldset></legend></form>
 
         @yield('footer')
     </body>
